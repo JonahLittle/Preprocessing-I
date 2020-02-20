@@ -152,11 +152,15 @@ body {
   align-items: flex-end;
 }
 .about-me {
+  display: flex;
   height: 80px;
+  width: 90%;
   margin: 20px;
+  background-color: #D3D3D3;
 }
-.about-me h2 {
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 10px;
+.about-me .Head2 {
+  font-size: 70px;
+  width: 40%;
+  padding: 5px;
+  padding-left: 30px;
 }
